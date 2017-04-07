@@ -14,14 +14,14 @@ Capslock::Ctrl
 
 ;; Win+, Win+. & Win+/ to control Volume
 ;;--------------------------------------
-#,::Send {Volume_Down 3}
-#.::Send {Volume_Up 3}
+;#,::Send {Volume_Down 3}
+;#.::Send {Volume_Up 3}
 ;#/::Volume_Mute
 
 ;; Menor que y mayor que en teclado americano
 ;;-------------------------------------------
-ç::SendInput {<}
-+ç::SendInput {>}
+;ç::SendInput {<}
+;+ç::SendInput {>}
 
 
 ;;Rearrange Home, End, Supr & Insert
